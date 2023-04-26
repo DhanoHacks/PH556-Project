@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{plrelation}
+{Breuval, Louise}, {Kervella, Pierre}, {Anderson, Richard I.}, {Riess, Adam
+  G.}, {Arenou, Fr\'ed\'eric}, {Trahin, Boris}, {M\'erand, Antoine}, {Gallenne,
+  Alexandre}, {Gieren, Wolfgang}, {Storm, Jesper}, {Bono, Giuseppe},
+  {Pietrzy\'{}nski, Grzegorz}, {Nardetto, Nicolas}, {Javanmardi, Behnam}, and
+  {Hocd\'e, Vincent}.
+\newblock The milky way cepheid leavitt law based on gaia dr2 parallaxes of
+  companion stars and host open cluster populations.
+\newblock {\em A\&A}, 643:A115, 2020.
+
+\bibitem{simbad}
+Université de~Strasbourg/CNRS.
+\newblock Simbad.
+\newblock
+  \url{https://simbad.u-strasbg.fr/simbad/sim-id?Ident=%402772110&Name=V*+V471+Vul}.
+
+\bibitem{gaia}
+Université de~Strasbourg/CNRS.
+\newblock Vizier gaia dr3.
+\newblock
+  \url{https://vizier.cds.unistra.fr/viz-bin/VizieR-5?-ref=VIZ63ee97ab39561&-out.add=.&-source=I/358/vcep&recno=60&-out.orig=o}.
+
+\bibitem{vsx}
+American~Association of~Variable Star Observers~(AAVSO).
+\newblock Vsx.
+\newblock \url{https://www.aavso.org/vsx/index.php?view=detail.top&oid=133744}.
+
+\end{thebibliography}
