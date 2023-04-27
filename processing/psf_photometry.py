@@ -159,10 +159,6 @@ def psf_photometry(idx_image, imageName):
     plt.savefig(f"../figures/sextracted_targets_{imageName}.png")
     plt.show()
 
-    error_pos_list = []
-    table_row_list = []
-    psfmag_list = []
-    psfmagerr_list = []
     # Calculating PSF Mag of target
     tar_coords = SkyCoord(ra=[tar_ra,], dec=[tar_dec,], frame='icrs', unit='degree')
     print(tar_coords)
@@ -185,6 +181,7 @@ os.system(f'echo "JD,tar_psfmag,tar_psfmagerr" > results.txt')
 os.chdir("data")
 # images = glob.glob("../../*.wcs.fits")
 # images = ["20230410204702-229-RA.wcs.proc.fits","20230411204011-067-RA.wcs.proc.fits","20230412203312-198-RA.wcs.proc.fits","20230414203330-318-RA.wcs.proc.fits","20230415202558-023-RA.wcs.proc.fits","20230421200129-113-RA.wcs.proc.fits","20230422195357-965-RA.wcs.proc.fits"]
-images = ["20230410204702-229-RA.wcs.proc.fits","20230411204011-067-RA.wcs.proc.fits","20230414203330-318-RA.wcs.proc.fits","20230415202558-023-RA.wcs.proc.fits","20230422195357-965-RA.wcs.proc.fits"]
+# images = ["20230410204702-229-RA.wcs.proc.fits","20230411204011-067-RA.wcs.proc.fits","20230414203330-318-RA.wcs.proc.fits","20230415202558-023-RA.wcs.proc.fits","20230422195357-965-RA.wcs.proc.fits"]
+images = ["20230417204141-924-RA.wcs.proc.fits",]
 for i in range(len(images)):
     psf_photometry(i, os.path.basename(images[i]))

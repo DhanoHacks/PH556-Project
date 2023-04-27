@@ -1,0 +1,7 @@
+Mean PSF Mag: 14.12
+LS best period: 5.8 days
+Absolute magnitude of V* 471 Vul: -3.72 (V-band)
+Color index (B-V) of V* 471 Vul is 1.81
+Absolute magnitude of V* 471 Vul: -2.68 (g-band)
+Apparent magnitude of V* 471 Vul: 14.12 (g'-band, close enough to g-band)
+Distance modulus of V* 471 Vul: 22912 parsec
