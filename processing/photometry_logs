@@ -1,0 +1,144 @@
+20230317225123-039-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.6814, Dec 19.5811 with a radius of 30.0000 arcmin in g band
+2860
+Executing command: sex -c photomCat.sex 20230317225123-039-RA.masked.wcs.proc.fits -CATALOG_NAME 20230317225123-039-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230317225123-039-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230317225123-039-RA.masked.wcs.proc.fits -CATALOG_NAME 20230317225123-039-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230317225123-039-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+401
+Found 30 good cross-matches
+PSF Mean ZP: 25.60
+PSF Median ZP: 25.56
+PSF STD ZP: 0.14
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 327
+PSF-fit magnitude of tar is 14.27 +/- 0.14
+20230321211314-542-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.6717, Dec 19.5729 with a radius of 30.0000 arcmin in g band
+2837
+Executing command: sex -c photomCat.sex 20230321211314-542-RA.masked.wcs.proc.fits -CATALOG_NAME 20230321211314-542-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230321211314-542-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230321211314-542-RA.masked.wcs.proc.fits -CATALOG_NAME 20230321211314-542-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230321211314-542-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+231
+Found 4 good cross-matches
+PSF Mean ZP: 26.24
+PSF Median ZP: 26.29
+PSF STD ZP: 0.19
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 516
+PSF-fit magnitude of tar is 13.99 +/- 0.19
+20230322231059-990-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.6756, Dec 19.5667 with a radius of 30.0000 arcmin in g band
+2758
+Executing command: sex -c photomCat.sex 20230322231059-990-RA.masked.wcs.proc.fits -CATALOG_NAME 20230322231059-990-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230322231059-990-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230322231059-990-RA.masked.wcs.proc.fits -CATALOG_NAME 20230322231059-990-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230322231059-990-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+3064
+Found 615 good cross-matches
+PSF Mean ZP: 27.29
+PSF Median ZP: 27.28
+PSF STD ZP: 0.04
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 2322
+PSF-fit magnitude of tar is 14.21 +/- 0.04
+20230326214525-048-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.7021, Dec 19.5755 with a radius of 30.0000 arcmin in g band
+2791
+Executing command: sex -c photomCat.sex 20230326214525-048-RA.masked.wcs.proc.fits -CATALOG_NAME 20230326214525-048-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230326214525-048-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230326214525-048-RA.masked.wcs.proc.fits -CATALOG_NAME 20230326214525-048-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230326214525-048-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+1382
+Found 254 good cross-matches
+PSF Mean ZP: 27.41
+PSF Median ZP: 27.41
+PSF STD ZP: 0.04
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 1580
+PSF-fit magnitude of tar is 13.90 +/- 0.04
+20230404211143-368-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.5609, Dec 19.5727 with a radius of 30.0000 arcmin in g band
+2883
+Executing command: sex -c photomCat.sex 20230404211143-368-RA.masked.wcs.proc.fits -CATALOG_NAME 20230404211143-368-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230404211143-368-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230404211143-368-RA.masked.wcs.proc.fits -CATALOG_NAME 20230404211143-368-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230404211143-368-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+1344
+Found 594 good cross-matches
+PSF Mean ZP: 27.42
+PSF Median ZP: 27.42
+PSF STD ZP: 0.04
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 1467
+PSF-fit magnitude of tar is 14.33 +/- 0.04
+20230409205209-789-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.5789, Dec 19.5749 with a radius of 30.0000 arcmin in g band
+2822
+Executing command: sex -c photomCat.sex 20230409205209-789-RA.masked.wcs.proc.fits -CATALOG_NAME 20230409205209-789-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230409205209-789-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230409205209-789-RA.masked.wcs.proc.fits -CATALOG_NAME 20230409205209-789-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230409205209-789-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+2398
+Found 1028 good cross-matches
+PSF Mean ZP: 27.49
+PSF Median ZP: 27.49
+PSF STD ZP: 0.05
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 2463
+PSF-fit magnitude of tar is 14.22 +/- 0.05
+20230413203519-882-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.5926, Dec 19.5743 with a radius of 30.0000 arcmin in g band
+2819
+Executing command: sex -c photomCat.sex 20230413203519-882-RA.masked.wcs.proc.fits -CATALOG_NAME 20230413203519-882-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230413203519-882-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230413203519-882-RA.masked.wcs.proc.fits -CATALOG_NAME 20230413203519-882-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230413203519-882-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+2453
+Found 1172 good cross-matches
+PSF Mean ZP: 26.63
+PSF Median ZP: 26.62
+PSF STD ZP: 0.07
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 2481
+PSF-fit magnitude of tar is 13.92 +/- 0.07
+20230416222652-985-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.6025, Dec 19.5721 with a radius of 30.0000 arcmin in g band
+2869
+Executing command: sex -c photomCat.sex 20230416222652-985-RA.masked.wcs.proc.fits -CATALOG_NAME 20230416222652-985-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230416222652-985-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230416222652-985-RA.masked.wcs.proc.fits -CATALOG_NAME 20230416222652-985-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230416222652-985-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+3793
+Found 1034 good cross-matches
+PSF Mean ZP: 27.38
+PSF Median ZP: 27.37
+PSF STD ZP: 0.04
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 3491
+PSF-fit magnitude of tar is 14.32 +/- 0.04
+20230417204141-924-RA.wcs.proc.fits
+
+Querying Vizier II/349 around RA 293.6113, Dec 19.5710 with a radius of 30.0000 arcmin in g band
+2853
+Executing command: sex -c photomCat.sex 20230417204141-924-RA.masked.wcs.proc.fits -CATALOG_NAME 20230417204141-924-RA.masked.wcs.proc.fits.cat -PARAMETERS_NAME photomCat.param
+Executing command: psfex -c psfex_conf.psfex 20230417204141-924-RA.masked.wcs.proc.fits.cat
+Executing command: sex -c photomCat.sex 20230417204141-924-RA.masked.wcs.proc.fits -CATALOG_NAME 20230417204141-924-RA.masked.wcs.proc.fits.psf.cat -PSF_NAME 20230417204141-924-RA.masked.wcs.proc.fits.psf -PARAMETERS_NAME photomPSF.param
+1758
+Found 627 good cross-matches
+PSF Mean ZP: 27.23
+PSF Median ZP: 27.22
+PSF STD ZP: 0.06
+<SkyCoord (ICRS): (ra, dec) in deg
+    [(293.56566667, 19.57072222)]>
+Found the source at index 1602
+PSF-fit magnitude of tar is 13.95 +/- 0.06

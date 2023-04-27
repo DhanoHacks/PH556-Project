@@ -147,17 +147,17 @@ def psf_photometry(idx_image, imageName):
     zero_psfmean, zero_psfmed, zero_psfstd = sigma_clipped_stats(psfoffsets)
     print('PSF Mean ZP: %.2f\nPSF Median ZP: %.2f\nPSF STD ZP: %.2f'%(zero_psfmean, zero_psfmed, zero_psfstd))
 
-    fig = plt.figure(figsize=(10,10))
-    ax = fig.gca()
-    mean, median, sigma = sigma_clipped_stats(data)
-    plt.imshow(data, vmin=median-3*sigma, vmax=median+3*sigma)
-    #plotting circles on top of all detected sources
-    circles = [plt.Circle((source['XWIN_IMAGE'], source['YWIN_IMAGE']), radius = 5, edgecolor='r', facecolor='None') for source in psfsourceTable]
-    circles += [plt.Circle((w.world_to_pixel(SkyCoord(ra=tar_ra,dec=tar_dec,frame="icrs",unit="degree"))), radius = 50, edgecolor='b', facecolor='None'),]
-    for c in circles:
-        ax.add_artist(c)
-    plt.savefig(f"../figures/sextracted_targets_{imageName}.png")
-    plt.show()
+    # fig = plt.figure(figsize=(10,10))
+    # ax = fig.gca()
+    # mean, median, sigma = sigma_clipped_stats(data)
+    # plt.imshow(data, vmin=median-3*sigma, vmax=median+3*sigma)
+    # #plotting circles on top of all detected sources
+    # circles = [plt.Circle((source['XWIN_IMAGE'], source['YWIN_IMAGE']), radius = 5, edgecolor='r', facecolor='None') for source in psfsourceTable]
+    # circles += [plt.Circle((w.world_to_pixel(SkyCoord(ra=tar_ra,dec=tar_dec,frame="icrs",unit="degree"))), radius = 50, edgecolor='b', facecolor='None'),]
+    # for c in circles:
+    #     ax.add_artist(c)
+    # plt.savefig(f"../figures/sextracted_targets_{imageName}.png")
+    # plt.show()
 
     # Calculating PSF Mag of target
     tar_coords = SkyCoord(ra=[tar_ra,], dec=[tar_dec,], frame='icrs', unit='degree')
@@ -182,6 +182,6 @@ os.chdir("data")
 # images = glob.glob("../../*.wcs.fits")
 # images = ["20230410204702-229-RA.wcs.proc.fits","20230411204011-067-RA.wcs.proc.fits","20230412203312-198-RA.wcs.proc.fits","20230414203330-318-RA.wcs.proc.fits","20230415202558-023-RA.wcs.proc.fits","20230421200129-113-RA.wcs.proc.fits","20230422195357-965-RA.wcs.proc.fits"]
 # images = ["20230410204702-229-RA.wcs.proc.fits","20230411204011-067-RA.wcs.proc.fits","20230414203330-318-RA.wcs.proc.fits","20230415202558-023-RA.wcs.proc.fits","20230422195357-965-RA.wcs.proc.fits"]
-images = ["20230417204141-924-RA.wcs.proc.fits",]
+images = ["20230317225123-039-RA.wcs.proc.fits","20230321211314-542-RA.wcs.proc.fits","20230322231059-990-RA.wcs.proc.fits","20230326214525-048-RA.wcs.proc.fits","20230404211143-368-RA.wcs.proc.fits","20230409205209-789-RA.wcs.proc.fits","20230413203519-882-RA.wcs.proc.fits","20230416222652-985-RA.wcs.proc.fits","20230417204141-924-RA.wcs.proc.fits"]
 for i in range(len(images)):
     psf_photometry(i, os.path.basename(images[i]))

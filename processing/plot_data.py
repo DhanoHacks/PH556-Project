@@ -17,9 +17,11 @@ frequency = 1/period
 ls = LombScargle(data[:,0], data[:,1], data[:,2])
 power = ls.power(frequency)
 best_frequency = frequency[np.argmax(power)]
+best_period = 1/best_frequency
+
 t_fit = np.linspace(np.min(data[:,0])-1,np.max(data[:,0])+1,100)
 y_fit = ls.model(t_fit, best_frequency)
-best_period = 1/best_frequency
+
 print(f"LS best period: {best_period:.1f} days")
 plt.plot(frequency, power) 
 plt.xlabel(f"Frequency")
